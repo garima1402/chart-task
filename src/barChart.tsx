@@ -29,7 +29,7 @@ const Bar: React.FC = () => {
       type: "value",
     },
     series: [
-      {
+      {    
         name: "Bar Chart",
         data: alcoholData,
         type: "bar",
