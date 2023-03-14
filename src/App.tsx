@@ -8,7 +8,7 @@ function App() {
       <Scatter />
       <Bar />
     </div>
-  );
+  );    
 }
 
 export default App;
