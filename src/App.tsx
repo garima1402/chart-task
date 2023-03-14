@@ -9,6 +9,6 @@ function App() {
       <Bar />
     </div>
   );
-}
+}  
 
 export default App;
