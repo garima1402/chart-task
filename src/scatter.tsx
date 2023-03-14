@@ -16,6 +16,7 @@ const Scatter: React.FC = () => {
   const options = {
     grid: { top: 8, right: 8, bottom: 24, left: 36 },
     xAxis: {
+      name: "Color Intensity",
       type: "category",
       data: colorData,
     },
@@ -26,10 +27,12 @@ const Scatter: React.FC = () => {
       },
     },
     yAxis: {
+      name: "Hue",
       type: "value",
     },
     series: [
       {
+        name: "Scatter Chart",
         data: hueData,
         type: "scatter",
         smooth: true,

@@ -16,20 +16,21 @@ const Bar: React.FC = () => {
   const options = {
     grid: { top: 8, right: 8, bottom: 24, left: 36 },
     xAxis: {
+      name: "Malic Acid",
       type: "category",
+      boundaryGap: false,
       data: malicAcidData,
-    },
-    label: {
-      normal: {
-        show: true,
-        formatter: "This is a normal label.",
+      nameTextStyle: {
+        padding: [10, 0, 0, 0],
       },
     },
     yAxis: {
+      name: "Alcohol",
       type: "value",
     },
     series: [
       {
+        name: "Bar Chart",
         data: alcoholData,
         type: "bar",
         smooth: true,
