@@ -1,10 +1,12 @@
 import "./App.css";
-import Page from "./chart";
+import Scatter from "./scatter";
+import Bar from "./barChart";
 
 function App() {
   return (
     <div className="App">
-      <Page />
+      <Scatter />
+      <Bar />
     </div>
   );
 }
